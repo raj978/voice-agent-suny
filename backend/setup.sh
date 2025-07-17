@@ -7,13 +7,13 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Copy environment file
-if [ ! -f .env ]; then
-    cp .env.example .env
-    echo "📝 Created .env file. Please update it with your API keys."
-fi
+# if [ ! -f .env ]; then
+#     cp .env.example .env
+#     echo "📝 Created .env file. Please update it with your API keys."
+# fi
 
 echo "✅ Backend setup complete!"
 echo ""

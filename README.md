@@ -39,7 +39,7 @@ A real-time voice-enabled chatbot using LiveKit where users can converse with "S
 
 ### 1. Frontend Setup
 
-\`\`\`bash
+```bash
 # Install dependencies
 npm install
 
@@ -75,7 +75,7 @@ cp .env.example .env
 
 # Start the agent
 python weather_agent.py dev
-\`\`\`
+```
 
 ### 3. LiveKit Cloud Setup
 
