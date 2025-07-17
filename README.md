@@ -53,11 +53,11 @@ cp .env.local.example .env.local
 
 # Start development server
 npm run dev
-\`\`\`
+```
 
 ### 2. Backend Setup
 
-\`\`\`bash
+```bash
 cd backend
 
 # Run setup script
@@ -104,54 +104,54 @@ Sunny is a cheerful weather expert who has lived in San Ramon, California for ov
 ### Environment Variables
 
 **Frontend (.env.local):**
-\`\`\`
+```
 NEXT_PUBLIC_LIVEKIT_URL=wss://your-project.livekit.cloud
 LIVEKIT_API_KEY=your-api-key
 LIVEKIT_API_SECRET=your-api-secret
-\`\`\`
+```
 
 **Backend (.env):**
-\`\`\`
+```
 LIVEKIT_URL=wss://your-project.livekit.cloud
 LIVEKIT_API_KEY=your-api-key
 LIVEKIT_API_SECRET=your-api-secret
 OPENAI_API_KEY=your-openai-key
 DEEPGRAM_API_KEY=your-deepgram-key
 OPENWEATHER_API_KEY=your-weather-key
-\`\`\`
+```
 
 ## 🚀 Deployment
 
 ### Local Development
-\`\`\`bash
+```bash
 # Frontend
 npm run dev
 
 # Backend
 cd backend
 python weather_agent.py dev
-\`\`\`
+```
 
 ### Production
 
 **Frontend (Vercel):**
-\`\`\`bash
+```bash
 npm run build
 # Deploy to Vercel or your preferred platform
-\`\`\`
+```
 
 **Backend (AWS ECS - Bonus Points!):**
-\`\`\`bash
+```bash
 cd backend
 python deploy_aws.py
 # Follow the deployment instructions
-\`\`\`
+```
 
 **Backend (Docker):**
-\`\`\`bash
+```bash
 cd backend
 docker-compose up -d
-\`\`\`
+```
 
 ## 💰 Cost Breakdown (Under $10 Budget)
 
