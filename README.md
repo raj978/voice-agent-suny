@@ -193,7 +193,7 @@ docker-compose up -d
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── app/                    # Next.js app directory
 │   ├── api/token/         # LiveKit token generation
 │   ├── globals.css        # Global styles
@@ -207,7 +207,7 @@ docker-compose up -d
 │   └── setup.sh          # Setup script
 ├── components/ui/         # shadcn/ui components
 └── README.md             # This file
-\`\`\`
+```
 
 ## 🧪 Testing
 
@@ -231,4 +231,4 @@ MIT License - feel free to use this code for your own projects!
 
 ---
 
-**Built with ❤️ by Rajat for the Bluejay take-home **
+**Built with ❤️ by Rajat for the Bluejay take-home**
