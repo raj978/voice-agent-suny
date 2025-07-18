@@ -8,6 +8,10 @@ import json
 import base64
 import os
 from typing import Dict, Any
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 class AWSDeployer:
     def __init__(self, region: str = "us-west-2"):
@@ -55,6 +59,12 @@ class AWSDeployer:
                     "image": image_uri,
                     "essential": True,
                     "environment": environment,
+                    "portMappings": [
+                        {
+                            "containerPort": 8080,
+                            "protocol": "tcp"
+                        }
+                    ],
                     "logConfiguration": {
                         "logDriver": "awslogs",
                         "options": {

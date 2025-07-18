@@ -97,6 +97,7 @@ async def entrypoint(ctx: JobContext):
         "DEEPGRAM_API_KEY": os.getenv("DEEPGRAM_API_KEY"),
         "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY"),
         "OPENWEATHER_API_KEY": os.getenv("OPENWEATHER_API_KEY"),
+        "LIVEKIT_URL": os.getenv("LIVEKIT_URL"),
     }
     missing_keys = [k for k, v in required_keys.items() if not v]
     if missing_keys:
