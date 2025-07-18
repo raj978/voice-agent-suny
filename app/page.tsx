@@ -345,7 +345,7 @@ export default function Home() {
   return (
     <LiveKitRoom
       token={token}
-      serverUrl={process.env.LIVEKIT_URL}
+      serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
       connect={true}
       audio={true}
       video={false}
