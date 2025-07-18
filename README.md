@@ -47,7 +47,7 @@ npm install
 cp .env.local.example .env.local
 
 # Update .env.local with your LiveKit credentials
-# NEXT_PUBLIC_LIVEKIT_URL=wss://your-project.livekit.cloud
+# LIVEKIT_URL=wss://your-project.livekit.cloud
 # LIVEKIT_API_KEY=your-api-key
 # LIVEKIT_API_SECRET=your-api-secret
 
@@ -105,7 +105,7 @@ Sunny is a cheerful weather expert who has lived in San Ramon, California for ov
 
 **Frontend (.env.local):**
 ```
-NEXT_PUBLIC_LIVEKIT_URL=wss://your-project.livekit.cloud
+LIVEKIT_URL=wss://your-project.livekit.cloud
 LIVEKIT_API_KEY=your-api-key
 LIVEKIT_API_SECRET=your-api-secret
 ```
