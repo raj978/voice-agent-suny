@@ -1,4 +1,4 @@
-# Bluejay Voice Chat Room with Transcription
+# oice Chat Room with Transcription
 
 A real-time voice-enabled chatbot using LiveKit where users can converse with "Sunny," a friendly weather expert agent who specializes in San Ramon, CA weather conditions.
 
@@ -231,4 +231,4 @@ MIT License - feel free to use this code for your own projects!
 
 ---
 
-**Built with ❤️ by Rajat for the Bluejay take-home**
+**Built with ❤️ by Rajat**
